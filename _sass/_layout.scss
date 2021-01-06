@@ -1,7 +1,3 @@
-body {
-  background: #f2f2f2;
-}
-
 main {
   display: block;
 }
@@ -12,28 +8,34 @@ h1, h2, h3, p {
 
 h1 {
   font-weight: 600;
-  font-size: 4.2rem;
-  line-height: 4.6rem;
+  font-size: 9.4rem;
+  line-height: 9.7rem;
+  letter-spacing: -0.376rem;
   color: #e3120b;
+  margin: 0 0 10rem;
 }
 
 h2 {
-  font-weight: 600;
-  font-size: 3.2rem;
+  font-weight: 425;
+  font-size: 3.8rem;
   line-height: 3.8rem;
+  color: #212121;
+  letter-spacing: -0.02rem;
 }
 
 h3 {
-  font-weight: 600;
-  font-size: 2.2rem;
-  line-height: 3.2rem;
+  font-weight: 425;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.02rem;
 }
 
 p {
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 3.2rem;
-  color: #333;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #656565;
+  letter-spacing: 0.02rem;
 }
 
 a {
@@ -64,21 +66,35 @@ ul {
   }
 }
 
+.logo {
+  width: 4rem;
+  height: 4rem;
+  overflow: hidden;
+  text-indent: -999rem;
+  background: url('/assets/imgs/logo.svg') top left no-repeat;
+  display: block;
+  border: 0;
+  margin: 7.5rem auto 12rem;
+}
+
 .full-width-layout {
   padding: 2.5rem;
   display: flex;
 
   .full-width-inner {
     width: 100%;
-    max-width: 56rem;
+    max-width: 104rem;
     margin: 0 auto;
   }
 }
 
 .hero-banner {
   p {
-    font-size: 2.2rem;
-    line-height: 3rem;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    letter-spacing: -3.2;
+    color: #656565;
+    font-weight: 200;
   }
 }
 
@@ -122,7 +138,7 @@ ul.client-logos {
 
     svg {
       max-height: 4.8rem;
-      min-width: 8rem;
+      min-width: 4rem;
       fill: #b6b6b6;
       color: #b6b6b6;
     }
@@ -138,7 +154,7 @@ hr {
 
 @media screen and (min-width: 890px) {
   .full-width-layout .full-width-inner {
-    max-width: 76rem;
+    max-width: 104rem;
   }
 
   .split-layout {
@@ -171,7 +187,7 @@ hr {
     padding: 2.5rem 0 2.5rem 2.5rem;
 
     li {
-      width: 50%;
+      width: 16%;
     }
   }
 }
