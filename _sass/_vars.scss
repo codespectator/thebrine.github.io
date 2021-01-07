@@ -1,0 +1,96 @@
+html {
+  --baseSize: 17px;
+  --baseLetterSpacing: 0.2px;
+  --baseLineHeight: 150%;
+  --baseWeight: 200;
+  --baseColor: #949494;
+
+  --smallSize: 15px;
+  --smallTextWeight: 200;
+  --smallHeadingWeight: 425;
+
+  --headingSize: 34px;
+  --headingLetterSpacing: -0.2px;
+  --headingLineHeight: 115%;
+  --headingWeight: 425;
+  --headingColor: #c8c8c8;
+
+  --introSize: 15px;
+
+  --titleSize: 50px;
+  --titleLetterSpacing: -0.2px;
+  --titleLineHeight: 100%;
+  --titleWeight: 600;
+  --titleColor: #111;
+
+  --black100: #111;
+  --black90: #212121;
+  --black10: rgba(0,0,0,0.15);
+  --yellow100: #ffdc18;
+
+  --gutterWidth: 20px;
+  --columnPadding: 10px;
+
+  --spacerRelatedSmall: 4px;
+  --spacerRelatedLarge: 8px;
+
+  --spacerDependentSmall: 16px;
+  --spacerDependentLarge: 24px;
+
+  --spacerSectionSmall: 36px;
+  --spacerSectionLarge: 48px;
+
+  --windowWidth: 100vw;
+  --layoutWidth: calc(var(--windowWidth) - (var(--gutterWidth) * 2));
+
+  --columnCount: 2;
+  --columnWidth: calc(var(--layoutWidth) / var(--columnCount));
+
+  --clientColor: #4a4a4a;
+  --clientWidth: calc(var(--layoutWidth) - 100px);
+  --clientHeight: 90px;
+}
+
+@media (min-width: 660px) {
+  html {
+    --titleSize: 67px;
+    --titleLetterSpacing: -2.56px;
+
+    --headingSize: 50px;
+
+    --introSize: 17px;
+
+    --clientWidth: calc(var(--columnWidth) - 150px);
+    --clientHeight: 40px;
+  }
+}
+
+@media (min-width: 740px) {
+  html {
+    --titleSize: 74px;
+    --titleLetterSpacing: -2.96px;
+
+    --columnWidth: 60px;
+
+    --clientWidth: calc(3 * var(--columnWidth) - 50px);
+    --clientHeight: 60px;
+  }
+}
+
+@media (min-width: 980px) {
+  html {
+    --titleSize: 94px;
+    --titleLetterSpacing: -3.76px;
+
+    --columnWidth: 80px;
+    --clientWidth: calc(var(--columnWidth) * 1.8);
+    --clientHeight: 40px;
+  }
+}
+
+@media (min-width: 1140px) {
+  html {
+    --clientWidth: calc(var(--columnWidth) * 1.8);
+    --clientHeight: 60px;
+  }
+}

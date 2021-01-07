@@ -3,63 +3,77 @@ layout: default
 meta:
   title: Highland Labs
 ---
-<section class="hero-banner full-width-layout">
-  <div class="full-width-inner">
-    <a href="/" class="logo">Highland Labs</a>
-    <h1>Together we can build fantastic things</h1>
+<header class="header">
+  <div class="header--character">
+    <nav class="nav">
+      <a href="/" class="logo">Highland:Labs</a>
+      <a href="mailto:james@highland-labs.net" class="cta">Get in touch</a>
+    </nav>
 
-    <p>I'm a Ruby (on Rails) developer based in Hong Kong with over 10 years experience.</p>
+    <div class="content">
+      <h1>Together we can build fantastic things</h1>
 
-    <p>I have worked on a wide range of projects both as a freelancer and while working at some <a href="#agencies">fantastic digital agencies</a>.</p>
+      <p class="intro">I'm a Ruby (on Rails) developer based in Hong Kong with over 10 years experience.</p>
+
+      <p class="intro">I have worked on a wide range of projects both as a freelancer and while working at some <a href="#agencies" class="masthead-anchor">fantastic digital agencies</a>.</p>
+    </div>
   </div>
-</section>
+</header>
 
-<section class="full-width-layout">
-  <div class="full-width-inner">
-    <h2>I can support your project every step of the way</h2>
+<section class="section">
+  <h2 class="section__title">I can support your project every step of the way</h2>
 
+  <div class="section__content">
     <p>When you hire me to work on your project, you're hiring somebody to help you throughout your project from planning, implementation to deployment.</p>
 
     <p>I can support writing of functional requirements and help you prioritise those requirements to produce a minimum viable product as quickly as possible and within your budget.</p>
+  </div>
+</section>
 
-    <h2>Do you have a project that is struggling with technical debt?</h2>
+<section class="section">
+  <h2 class="section__title">Do you have a project that is struggling with technical debt?</h2>
 
+  <div class="section__content">
     <p>Whether its test coverage, code complexity or that fragile 'black box' that you just can't get rid of, I can help. I can help! I can review the project, identify areas that require attention and then work with you to not only reduce the technical debt, but also help put processes in place to stop it building again in the future.</p>
+  </div>
+</section>
 
-    <h2>Development & Consultancy services</h2>
+<section class="section">
+  <h2 class="section__title">Development & Consultancy services</h2>
 
+  <div class="section__content">
     <p>I offer a range of development and consultancy services, from short-term consultancy through to longer term development projects.</p>
+  </div>
+</section>
 
+<div class="section__table">
+  <div class="section__cell">
     <h3>Web application development</h3>
 
-    <p>I can help your startup or agency with building and supporting robust web applications. Be it a prototype or minimum viable product, an API to share a small businesses data or a fun, data driven web marketing tool, I can work alone, white labeled, or as part of your team to roll out your project on time and on budget.</p>
+    <p class="small">I can help your startup or agency with building and supporting robust web applications. Be it a prototype or minimum viable product, an API to share a small businesses data or a fun, data driven web marketing tool, I can work alone, white labeled, or as part of your team to roll out your project on time and on budget.</p>
+  </div>
 
-
+  <div class="section__cell">
     <h3>Industry standard tools</h3>
 
-    <p>Adopting industry standard tools ensures I can drop straight into your existing team or work along side designers with minimal fuss. A BDD/TDD behaviour driven approach to development gives both project managers and developers alike piece of mind when understanding features and tracking progress against deadlines.</p>
+    <p class="small">Adopting industry standard tools ensures I can drop straight into your existing team or work along side designers with minimal fuss. A BDD/TDD behaviour driven approach to development gives both project managers and developers alike piece of mind when understanding features and tracking progress against deadlines.</p>
+  </div>
 
-    <ul>
-      <li>Rspec, Cucumber <em>- for efficient, TDD and BDD behaviour driven development.</em></li>
-      <li>Git <em>- for reliable source code version control.</em></li>
-      <li>Capistrano <em>- for seamless deployment and server task management.</em></li>
-    </ul>
-
+  <div class="section__cell">
     <h3>Hosting a scalability</h3>
 
-    <p>Using industry standard open source technologies hosted on Amazons AWS infrastructure ensures cost effective, high availability hosting for your project which can be scaled up and down to meet customer demand. I can handle configuration and deployment to new hosting services for you or work with you within your existing hosting infrastructure.</p>
+    <p class="small">Using industry standard open source technologies hosted on Amazons AWS infrastructure ensures cost effective, high availability hosting for your project which can be scaled up and down to meet customer demand. I can handle configuration and deployment to new hosting services for you or work with you within your existing hosting infrastructure.</p>
+  </div>
 
-    <ul>
-      <li>Amazon AWS and DigitalOcean <em>- for customised, scalable application hosting environments.</em></li>
-      <li>Puppet  and Docket <em>- for repeatable provisioning and scaling or infrastructure.</em></li>
-      <li>Postgres, ElasticSearch, MongoDB <em>- for tailored database requirements and scaling.</em></li>
-      <li>Puma, Redis <em>- for high availability application hosting and efficient background job management.</em></li>
-    </ul>
-
+  <div class="section__cell">
     <h3>Consulting services</h3>
 
-    <p>As well as application development, I can also offer a range of consultancy services, helping you create a plan to turn your ideas into reality. I can guide you towards the best approach for your app and recommend the best technical approach that makes sense for your project. I have particular expertise in test automation and can consult and advise you on the best way to write automated tests for your Rails projects, including helping you get up and running with your first automated tests, setting up a continuous integration and build environment and mentoring for your team.</p>
+    <p class="small">As well as application development, I can also offer a range of consultancy services, helping you create a plan to turn your ideas into reality. I can guide you towards the best approach for your app and recommend the best technical approach that makes sense for your project.</p>
+  </div>
+</div>
 
+<div class="section__table">
+  <div class="section__cell">
     <a name="agencies"></a>
 
     <h2>Let's work together</h2>
@@ -67,16 +81,13 @@ meta:
     <p>I've worked on a variety of projects with a wide range of clients and agencies, each with unique challenges and requirements.</p>
 
     <p>If you're interested in hiring me, the first step is to drop me an email with a basic overview of your project. I don't need detailed requirements at this stage - I just need to know what your project is about, what (if any) timescales are involved and a rough idea of your budget.</p>
+  </div>
 
+  <div class="section__cell">
     <ul class="client-logos">
       <li>
         <svg viewBox="0 0 137 276" class="friday">
           <path d="M0 205.7V43L37.4 0V50.4L136.2 70V232.7L98.8 275.7V225.3L0 205.7ZM117.5 84.1L18.7 64.5V191.6L117.5 211.2V84.1ZM37.4 86L98.8 98.2V116L56.1 107.5V126.7L95.9 134.6V152.4L56.1 144.5V181.1L37.4 177.4V86Z"/>
-        </svg>
-      </li>
-      <li>
-        <svg viewBox="0 0 600 178" class="flowmedia">
-          <path d="M0 0H600V177.032H0V0ZM44.2443 119.536H69.9685V111.695H61.7444L61.9357 89.5087H82.7828V81.0933H61.9357L62.1269 60.4375H81.5396L82.1134 70.1916H91.0069L90.6244 52.5959H43.5749V60.4375H51.3209L50.9383 111.695H44.2443V119.536ZM98.9441 119.536H122.373V111.695H115.679L116.062 45.9975H96.649V53.8391H105.351L104.969 111.695H98.9441V119.536ZM139.299 95.3421C139.299 86.5442 143.22 77.6507 153.835 77.6507C161.294 77.6507 167.128 82.6234 167.128 93.812C167.128 103.566 162.824 111.695 153.07 111.695C143.412 111.695 139.299 103.662 139.299 95.3421ZM128.015 95.7246C128.015 108.348 134.996 120.684 152.783 120.684C169.805 120.684 178.412 109.113 178.412 94.9595C178.412 82.719 172.387 68.6616 154.026 68.6616C138.821 68.6616 128.015 79.4677 128.015 95.7246ZM230.721 119.536H242.005L258.74 77.6507H263.808V69.8091H241.622V77.6507H248.603L239.232 103.279C238.467 105.383 237.989 107.774 237.415 109.973H237.224C236.65 107.774 236.172 105.383 235.407 103.279L226.322 77.6507H232.251V69.8091H210.065V77.6507H215.611L218.002 84.2491L210.161 102.897C209.204 105.192 208.535 107.583 207.77 109.973H207.579C206.909 107.583 206.335 105.192 205.475 102.897L196.294 77.6507H201.936V69.8091H179.751V77.6507H185.01L201.65 119.536H212.36L220.488 100.028C221.158 98.3065 221.54 96.4896 222.019 94.6727H222.21C222.688 96.4896 223.07 98.3065 223.74 100.028L230.721 119.536ZM268.877 119.536H291.923V111.695H285.229L285.421 92.7601C285.516 83.4841 291.35 77.6507 297.757 77.6507C305.789 77.6507 307.798 84.0578 307.702 91.7082L307.511 111.695H302.06V119.536H324.533V111.695H318.221L318.413 92.7601C318.604 83.4841 323.29 77.6507 330.557 77.6507C337.347 77.6507 340.598 82.8147 340.598 89.7956C340.598 97.0634 340.503 104.427 340.216 111.695H334.574V119.536H357.429V111.695H350.926C351.213 103.757 351.309 95.8202 351.309 87.883C351.309 76.025 345.667 68.6616 334.191 68.6616C325.776 68.6616 319.464 72.678 317.169 79.9458H316.978C316.022 73.7299 311.527 68.6616 301.677 68.6616C293.358 68.6616 286.664 73.443 284.655 80.8065H284.464C285.134 76.5988 285.421 73.1561 285.421 69.8091H267.729V77.6507H274.71L274.519 111.695H268.877V119.536ZM407.634 108.443C403.331 110.643 397.88 112.268 391.664 112.268C381.814 112.268 374.738 106.052 374.642 96.394H410.216V94.9595C410.216 79.5633 402.662 68.6616 387.743 68.6616C371.678 68.6616 363.358 80.137 363.358 94.8639C363.358 110.451 373.112 120.588 389.56 120.684C397.019 120.684 403.618 118.676 407.061 117.241L407.634 108.443ZM374.642 89.1262C375.025 83.1016 378.085 76.5032 387.17 76.5032C396.254 76.5032 398.932 84.0578 398.932 88.1699V89.1262H374.642ZM469.889 111.695H463.195L463.577 45.9975H444.165V53.8391H453.249L453.058 69.8091C450.094 69.1397 446.747 68.6616 443.208 68.6616C426.282 68.6616 416.528 80.6152 416.528 97.0634C416.528 111.886 425.326 120.684 437.279 120.684C445.79 120.684 451.241 116.094 453.823 109.4H454.014C453.536 112.268 453.058 115.998 453.058 119.536H469.889V111.695ZM452.676 93.047C452.676 104.618 448.468 111.695 439.861 111.695C431.828 111.695 427.812 104.714 427.812 95.4377C427.812 85.6835 433.358 77.0769 443.208 77.0769C447.129 77.0769 450.476 77.842 452.676 79.1808V93.047ZM477.061 119.536H500.968V111.695H494.274L494.465 69.8091H476.2V77.6507H483.755L483.564 111.695H477.061V119.536ZM481.747 52.2134C481.747 56.3254 484.998 59.5768 489.11 59.5768C493.222 59.5768 496.474 56.3254 496.474 52.2134C496.474 48.1014 493.222 44.85 489.11 44.85C484.998 44.85 481.747 48.1014 481.747 52.2134ZM511.105 85.4923H520.668V78.2245C522.293 77.5551 525.927 76.5032 529.657 76.5032C538.455 76.5032 540.654 80.8065 540.654 86.9267V90.6562L530.422 91.23C522.293 91.6125 509.001 93.3338 509.001 106.435C509.001 112.747 512.922 120.684 524.875 120.684C535.299 120.684 539.315 114.85 541.419 109.208H541.61C541.037 112.555 540.75 116.38 540.75 119.536H556.529V111.695H549.835C549.93 103.662 550.217 95.7246 550.217 87.6917C550.217 75.9294 545.531 68.6616 530.804 68.6616C520.19 68.6616 513.782 71.913 511.105 73.1561V85.4923ZM519.711 105.574C519.711 98.2109 529.37 97.7328 540.463 97.6371V99.6454C540.463 105.957 535.968 112.268 527.649 112.268C522.58 112.268 519.711 109.304 519.711 105.574Z" />
         </svg>
       </li>
       <li>
@@ -110,19 +121,37 @@ meta:
         </svg>
       </li>
     </ul>
+  </div>
+</div>
 
+<div class="section__table">
+  <div class="section__cell">
     <h3>Availability</h3>
 
-    <p>I'm currently available for projects, so please don't hesitate to drop me an email now to start discussing your project requirements.</p>
+    <p class="small">I'm currently available for projects, so please don't hesitate to drop me an email now to start discussing your project requirements.</p>
 
-    <p>My time can be booked several months advance so it can help to contact me early. If I'm unable to help, I may be able to point you in the direction of somebody who can.</p>
+    <p class="small">My time can be booked several months advance so it can help to contact me early. If I'm unable to help, I may be able to point you in the direction of somebody who can.</p>
+  </div>
 
-    <hr />
-
+  <div class="section__cell">
     <h3>Agencies and recruiters</h3>
 
-    <p>If you're a recruitment agency, please be aware that I do not usually accept roles through agents. You are welcome to get in touch with me if you feel you have a specific role that might be suitable to my skills, but any general emails or enquiries into my general availability for roles will be ignored. Please do not add my contact details to your mailing list or candidate database without my prior permission.</p>
+    <p class="small">If you're a recruitment agency, please be aware that I do not usually accept roles through agents. You are welcome to get in touch with me if you feel you have a specific role that might be suitable to my skills, but any general emails or enquiries into my general availability for roles will be ignored. Please do not add my contact details to your mailing list or candidate database without my prior permission.</p>
 
-    <p>Please also note that I am not currently looking for a permanent role; please do not contact me about these.</p>
+    <p class="small">Please also note that I am not currently looking for a permanent role; please do not contact me about these.</p>
   </div>
-</section>
+</div>
+
+<footer class="footer">
+  <div class="footer--character">
+    <nav class="nav">
+      <a href="/" class="logo logo--contrast">Highland:Labs</a>
+      <a href="mailto:james@highland-labs.net" class="cta cta--contrast">Get in touch</a>
+    </nav>
+
+    <div class="content">
+      <p class="copyright">Copyright &copy; 2021 - 2019</p>
+      <p class="small small--dark">Made with Jekyll, Hosted by Github.</p>
+    </div>
+  </div>
+</footer>
