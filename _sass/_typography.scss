@@ -1,14 +1,15 @@
 @font-face {
-  font-family: sohne-var;
-  src: url('/assets/fonts/d5dd9f5d.woff2') format("woff2-variations");
-  font-weight: 1 1000;
-  font-display: block;
-  unicode-range: U+0020-007e;
+  font-family: "Tiempos Headline";
+  font-weight: 700;
+  src: url('/assets/fonts/c6e75166.woff') format('woff');
 }
 @font-face {
-  font-family: sohne-var;
-  src: -url('/assets/fonts/c6e75166.woff2') format("woff2-variations");
-  font-weight: 1 1000;
-  font-display: block;
-  unicode-range: U+007f-ffff;
+  font-family: "Input Mono Narrow";
+  font-weight: 700;
+  src: url('/assets/fonts/dh6fo3s8.woff') format('woff');
+}
+@font-face {
+  font-family: "Input Mono Narrow";
+  font-weight: 400;
+  src: url('/assets/fonts/d5dd9f5d.woff') format('woff');
 }
