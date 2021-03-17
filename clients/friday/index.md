@@ -32,8 +32,8 @@ meta:
 <div class="container">
   <nav class="post-nav module">
     <ul class="row">
-      <li><a id="next" href="/consulting/innocent/" class="sc faded">Next: Innocent</a></li>
-      <li><a href="/consulting/" class="sc faded">View all projects</a></li>
+      <li><a id="next" href="/clients/innocent/" class="sc faded">Next: Innocent</a></li>
+      <li><a href="/clients/" class="sc faded">View all projects</a></li>
     </ul>
   </nav>
 </div>

@@ -49,7 +49,7 @@ html {
 }
 
 body {
-  font-family: "Input Mono Narrow";
+  font-family: "Circular";
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -font-smoothing: antialiased;
@@ -63,10 +63,10 @@ a {
 }
 
 h1 {
-  font-size: 3.5em;
-  font-family: "Tiempos Headline", serif;
+  font-size: 4em;
   font-weight: 700;
-  line-height:1.2
+  letter-spacing: -0.05em;
+  line-height: 1.2;
 }
 
 @media only screen and (max-width: 719px) {
@@ -230,7 +230,6 @@ code, em, i {
 
 .sc {
   text-transform: uppercase;
-  font-family: "Input Mono Narrow";
   font-weight: 700;
   font-size: .833333em;
   letter-spacing:.05em
