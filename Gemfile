@@ -1,7 +1,8 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll", "~> 3.9"
+source 'https://rubygems.org'
 
-gem "jekyll-seo-tag", "~> 2.7"
-
-gem "kramdown-parser-gfm", "~> 1.1"
+gem 'jekyll'
+gem 'jekyll-seo-tag'
+gem 'kramdown-parser-gfm'
+gem 'webrick'
